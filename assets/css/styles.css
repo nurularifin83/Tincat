@@ -14,12 +14,8 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    size: 3rem;
+    size: 3.5rem;
     line-height: 1.5;
-}
-
-.phone-img {
-    transform: rotate(20deg);
 }
 
 /*Navigation Bar */
@@ -46,4 +42,11 @@ h1 {
 
 .download-button {
     margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img {
+    transform: rotate(25deg);
+    width: 60%;
 }
