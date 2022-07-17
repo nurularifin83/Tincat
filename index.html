@@ -7,7 +7,6 @@
     <title>Tincat | You love me, just pick me up with you!</title>
     <!--Bootstrap framework-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,18 +82,37 @@
 
     <!--Testimonials start-->
     <section id="testimonials">
-        <h2>I no longer have to sniff other Cats for love. I've found the hottest Corgi and Tincat. Woof.</h2>
-        <img src="assets/media/products/cat.jpg" alt="Cat-img">
-        <em>Pebbles, Kyoto</em>
+        <div id="testimonialsControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h2>I no longer have to sniff other Cats for love. I've found the hottest Corgi and Tincat. Woof.</h2>
+                <img class="testimonials-image" src="assets/media/products/cat.jpg" alt="Cat-img">
+                <em>Pebbles, Kyoto</em>
+              </div>
+              <div class="carousel-item">
+                <h2>My cat used to be lonely, but with Tincat's help, they've found the love of their life. I think.</h2>
+                <img class="testimonials-image" src="assets/media/products/300-10.jpg" alt="lady-img">
+                <em>Beverly, Tokyo</em>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialsControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </section>
     <!--Testimonials end-->
 
     <!--Press start-->
     <section id="press">
-        <img src="assets/media/products/TechCrunch.png" alt="">
-        <img src="assets/media/products/tnw.png" alt="">
-        <img src="assets/media/products/bizinsider.png" alt="">
-        <img src="assets/media/products/mashable.png" alt="">
+        <img class="press-logo" src="assets/media/products/TechCrunch.png" alt="">
+        <img class="press-logo" src="assets/media/products/tnw.png" alt="">
+        <img class="press-logo" src="assets/media/products/bizinsider.png" alt="">
+        <img class="press-logo" src="assets/media/products/mashable.png" alt="">
     </section>
     <!--Press end-->
 
@@ -141,5 +159,7 @@
     </footer>
     <!--Footer end-->
 
+    <!-- Bootstrap core javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
