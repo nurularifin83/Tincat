@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tincat | You love me, just pick me up with you!</title>
     <!--Bootstrap framework-->
-    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,7 @@
     <!--Fontawesome-->
     <script src="https://kit.fontawesome.com/76a936d67b.js" crossorigin="anonymous"></script>
     <!--External CSS-->
-    <link rel="stylesheet" href="assets/dist/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
 </head>
 <body>
     
@@ -51,7 +52,7 @@
                 <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
             </div>
             <div class="col-lg-6">
-                <img class="title-img" src="assets/media/products/iphone6.png" alt="iphone-mockup">
+                <img class="title-img" src="assets/media/products/iphone6.png" alt="iphone-img">
             </div>
         </div>
         <!--Title End-->
@@ -82,89 +83,47 @@
 
     <!--Testimonials start-->
     <section id="testimonials">
-        <div id="testimonialsControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <h2>I no longer have to sniff other Cats for love. I've found the hottest Corgi and Tincat. Woof.</h2>
-                <img class="testimonials-image" src="assets/media/products/cat.jpg" alt="Cat-img">
-                <em>Pebbles, Kyoto</em>
-              </div>
-              <div class="carousel-item">
-                <h2>My cat used to be lonely, but with Tincat's help, they've found the love of their life. I think.</h2>
-                <img class="testimonials-image" src="assets/media/products/300-10.jpg" alt="lady-img">
-                <em>Beverly, Tokyo</em>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonialsControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+        <h2>I no longer have to sniff other Cats for love. I've found the hottest Corgi and Tincat. Woof.</h2>
+        <img src="assets/media/products/cat.jpg" alt="Cat-img">
+        <em>Pebbles, Kyoto</em>
     </section>
     <!--Testimonials end-->
 
     <!--Press start-->
     <section id="press">
-        <img class="press-logo" src="assets/media/products/TechCrunch.png" alt="">
-        <img class="press-logo" src="assets/media/products/tnw.png" alt="">
-        <img class="press-logo" src="assets/media/products/bizinsider.png" alt="">
-        <img class="press-logo" src="assets/media/products/mashable.png" alt="">
+        <img src="assets/media/products/TechCrunch.png" alt="">
+        <img src="assets/media/products/tnw.png" alt="">
+        <img src="assets/media/products/bizinsider.png" alt="">
+        <img src="assets/media/products/mashable.png" alt="">
     </section>
     <!--Press end-->
 
     <!--Pricing start-->
     <section id="pricing">
-        <h2 class="card-title text-center">A Plan for Every Cats Need.</h2>
-        <p class="card-text text-center">Simple and affordable price plans for your and your Cats.</p>
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-            <div class="pricing-column col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="card-header py-3">
-                        <h3>Chihuahua</h3>
-                    </div>
-                    <div class="card-body">
-                        <h2>Free</h2>
-                        <p>5 Match Per Day</p>
-                        <p>10 Message Per Day</p>
-                        <p>Unlimited App Usage</p>
-                        <button class="w-100 btn btn-lg btn-outline-primary" type="button">Sign Up</button>
-                    </div>
-                </div>
-            </div>
-            <div class="pricing-column col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Labrador</h3>
-                    </div>
-                    <div class="card-body">
-                        <h2>$39 / mo</h2>
-                        <p>Unlimited Matches Per Day</p>
-                        <p>Unlimited Messages Per Day</p>
-                        <p>Unlimited App Usage</p>
-                        <button class="w-100 btn btn-lg btn-primary" type="button">Sign up</button>
-                    </div>
-                </div>
-            </div>
-            <div class="pricing-column col-lg-4 col-md-12">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Mastiff</h3>
-                    </div>
-                    <div class="card-body">
-                        <h2>$139 / mo</h2>
-                        <p>Pirority Listing</p>
-                        <p>Unlimited Matches</p>
-                        <p>Unlimited Messages</p>
-                        <p>Unlimited App Usage</p>
-                        <button class="w-100 btn btn-lg btn-primary" type="button">Sign up</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <h2>A Plan for Every Cats Need.</h2>
+        <p>Simple and affordable price plans for your and your Cats.</p>
+
+        <h3>Chihuahua</h3>
+        <h2>Free</h2>
+        <p>5 Matches Per Day</p>
+        <p>10 Messages Per Day</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign up</button>
+
+        <h3>Labrador</h3>
+        <h2>$39 / mo</h2>
+        <p>Unlimited Matches Per Day</p>
+        <p>Unlimited Messages Per Day</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign up</button>
+
+        <h3>Mastiff</h3>
+        <h2>$139 / mo</h2>
+        <p>Pirority Listing</p>
+        <p>Unlimited Matches</p>
+        <p>Unlimited Messages</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign up</button>
     </section>
     <!--Pricing end-->
 
@@ -182,7 +141,5 @@
     </footer>
     <!--Footer end-->
 
-    <!-- Bootstrap core javascript -->
-    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
